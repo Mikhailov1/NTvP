@@ -21,3 +21,17 @@ C:\Users\Вячеслав\Desktop\4 курс\Калентьев\2л.р\Discounts
 C:\Users\Вячеслав\Desktop\NTvP репозиторий\Discounts\View\bin\Debug\View.exe.config
 C:\Users\Вячеслав\Desktop\NTvP репозиторий\Discounts\View\obj\Debug\View.exe
 C:\Users\Вячеслав\Desktop\NTvP репозиторий\Discounts\View\obj\Debug\View.pdb
+C:\Users\Вячеслав\Desktop\NTvP репозиторий\Discounts\View\obj\Debug\View.csprojResolveAssemblyReference.cache
+C:\Users\Вячеслав\Desktop\NTvP репозиторий\Discounts\View\obj\Debug\View.AddDiscountForm.resources
+C:\Users\Вячеслав\Desktop\NTvP репозиторий\Discounts\View\obj\Debug\View.SearchDiscountForm.resources
+C:\Users\Вячеслав\Desktop\NTvP репозиторий\Discounts\View\obj\Debug\View.DiscountsForm.resources
+C:\Users\Вячеслав\Desktop\NTvP репозиторий\Discounts\View\obj\Debug\View.Properties.Resources.resources
+C:\Users\Вячеслав\Desktop\NTvP репозиторий\Discounts\View\obj\Debug\View.csproj.GenerateResource.Cache
+C:\Users\Вячеслав\Desktop\NTvP репозиторий\Discounts\View\bin\Debug\View.exe.manifest
+C:\Users\Вячеслав\Desktop\NTvP репозиторий\Discounts\View\bin\Debug\View.application
+C:\Users\Вячеслав\Desktop\NTvP репозиторий\Discounts\View\bin\Debug\View.exe
+C:\Users\Вячеслав\Desktop\NTvP репозиторий\Discounts\View\bin\Debug\View.pdb
+C:\Users\Вячеслав\Desktop\NTvP репозиторий\Discounts\View\bin\Debug\Model.dll
+C:\Users\Вячеслав\Desktop\NTvP репозиторий\Discounts\View\bin\Debug\Model.pdb
+C:\Users\Вячеслав\Desktop\NTvP репозиторий\Discounts\View\obj\Debug\View.exe.manifest
+C:\Users\Вячеслав\Desktop\NTvP репозиторий\Discounts\View\obj\Debug\View.application
