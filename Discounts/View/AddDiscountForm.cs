@@ -25,7 +25,11 @@ namespace View
 
         private DiscountsForm mainForm;
 
-        // отображение компонентов для ввода значения процентной скидки
+        /// <summary>
+        /// отображение компонентов для ввода значения процентной скидки
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void percentRadioButton_CheckedChanged(object sender, EventArgs e)
         {
             discountLabel.Text = "Размер скидки (в процентах):";
@@ -33,7 +37,11 @@ namespace View
             percentNumericUpDown.Show();
         }
 
-        // отображение компонентов для ввода значения скидки по сертификату
+        /// <summary>
+        /// отображение компонентов для ввода значения скидки по сертификату
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void sertificateRadioButton_CheckedChanged(object sender, EventArgs e)
         {
             discountLabel.Text = "Размер скидки (в рублях):";
@@ -46,7 +54,11 @@ namespace View
             this.Close();
         }
 
-        // метод добавления скидки
+        /// <summary>
+        /// метод добавления скидки
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void confirmButton_Click(object sender, EventArgs e)
         {
             if (mainForm != null) {
@@ -74,8 +86,11 @@ namespace View
             this.Close();
         }
 
-        // метод проверки корректности вводимого символа
-        // (допустимы цифры, запятая, клавиши BackSpace и Delete)
+        /// <summary>
+        /// метод проверки корректности вводимого символа (допустимы цифры, запятая, клавиши BackSpace и Delete)
+        /// </summary>
+        /// <param name="ch"></param>
+        /// <returns></returns>
         private bool isValidChar(char ch)
         {
             return Char.IsDigit(ch) || ch == 8 || ch == 44;
@@ -97,7 +112,11 @@ namespace View
             }
         }
 
-        // очистка предыдущих значений при отображении формы
+        /// <summary>
+        /// очистка предыдущих значений при отображении формы
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void AddDiscountForm_Shown(object sender, EventArgs e)
         {
             percentNumericUpDown.Value = 50;

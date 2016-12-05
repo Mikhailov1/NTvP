@@ -18,7 +18,9 @@ namespace View
 
         private DiscountsForm mainForm;
 
-        // метод проверки корректности критериев поиска
+        /// <summary>
+        /// метод проверки корректности критериев поиска
+        /// </summary>
         private void checkInputValues()
         {
             searchButton.Enabled = percentCheckBox.Checked || certificateCheckBox.Checked;
@@ -26,8 +28,11 @@ namespace View
                 searchButton.Enabled = priceCheckBox.Checked || discPriceCheckBox.Checked;
         }
 
-        // метод проверки корректности вводимого символа
-        // (допустимы цифры, запятая, клавиши BackSpace и Delete)
+        /// <summary>
+        /// метод проверки корректности вводимого символа (допустимы цифры, запятая, клавиши BackSpace и Delete)
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void searchTextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!Char.IsDigit(e.KeyChar) && e.KeyChar != 8 && e.KeyChar != 44)
@@ -36,7 +41,11 @@ namespace View
             }
         }
 
-        // метод поиска по указанным критериям
+        /// <summary>
+        /// метод поиска по указанным критериям
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void searchButton_Click(object sender, EventArgs e)
         {
             if (mainForm != null)

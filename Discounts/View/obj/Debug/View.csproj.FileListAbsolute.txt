@@ -18,3 +18,6 @@ D:\Temp\Discounts\View\obj\Debug\View.SearchDiscountForm.resources
 C:\Users\Вячеслав\Desktop\4 курс\Калентьев\2л.р\Discounts\View\bin\Debug\View.exe.config
 C:\Users\Вячеслав\Desktop\4 курс\Калентьев\2л.р\Discounts\View\obj\Debug\View.exe
 C:\Users\Вячеслав\Desktop\4 курс\Калентьев\2л.р\Discounts\View\obj\Debug\View.pdb
+C:\Users\Вячеслав\Desktop\NTvP репозиторий\Discounts\View\bin\Debug\View.exe.config
+C:\Users\Вячеслав\Desktop\NTvP репозиторий\Discounts\View\obj\Debug\View.exe
+C:\Users\Вячеслав\Desktop\NTvP репозиторий\Discounts\View\obj\Debug\View.pdb

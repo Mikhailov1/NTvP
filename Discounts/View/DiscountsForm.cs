@@ -18,21 +18,34 @@ namespace View
             #endif
         }
 
-        // формы добавления и поиска
+        /// <summary>
+        /// формы добавления и поиска
+        /// </summary>
         private static AddDiscountForm addDiscountForm;
         private static SearchDiscountForm searchDiscountForm;
 
-        // здесь будут храниться объекты
+        /// <summary>
+        /// здесь будут храниться объекты
+        /// </summary>
         private List<Discount> discountList = new List<Discount>();
         XmlSerializer xmlSerializer = new XmlSerializer(typeof(List<Discount>));
 
-        // отображение формы добавления
+        /// <summary>
+        /// отображение формы добавления
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void addDiscountButton_Click(object sender, EventArgs e)
         {
             addDiscountForm.ShowDialog();
         }
 
-        // создание нового объекта
+        /// <summary>
+        /// создание нового объекта
+        /// </summary>
+        /// <param name="isPercent"></param>
+        /// <param name="price"></param>
+        /// <param name="discountSize"></param>
         public void createDiscount(bool isPercent, double price, double discountSize)
         {
             Discount discount = null;
@@ -48,7 +61,12 @@ namespace View
             removeDiscountButton.Enabled = searchDiscountButton.Enabled = saveToFileButton.Enabled = true;
         }
 
-        // метод преобразования объекта в строку таблицы для его отображения
+        /// <summary>
+        /// метод преобразования объекта в строку таблицы для его отображения
+        /// </summary>
+        /// <param name="discount"></param>
+        /// <param name="number"></param>
+        /// <returns></returns>
         private ListViewItem convertViewDiscountToListViewItem(Discount discount, int number)
         {
             return new ListViewItem(new String[]
@@ -59,7 +77,15 @@ namespace View
                 });
         }
 
-        // метод поиска в списке объектов
+        /// <summary>
+        /// метод поиска в списке объектов
+        /// </summary>
+        /// <param name="isPercent"></param>
+        /// <param name="isCertificate"></param>
+        /// <param name="isPrice"></param>
+        /// <param name="isDiscPrice"></param>
+        /// <param name="searchValue"></param>
+        /// <returns></returns>
         public ListViewItem[] searchDiscounts(bool isPercent, bool isCertificate, 
             bool isPrice, bool isDiscPrice, double searchValue)
         {
@@ -88,7 +114,11 @@ namespace View
             searchDiscountForm = new SearchDiscountForm(this);
         }
 
-        // метод удаления из списка
+        /// <summary>
+        /// метод удаления из списка
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void removeDiscountButton_Click(object sender, EventArgs e)
         {
             // если выделена хотя бы одна строка
@@ -110,7 +140,11 @@ namespace View
             else MessageBox.Show("Необходимо выбрать из списка хотя бы одну строку!");
         }
 
-        // метод заполнения списка случайными значениями
+        /// <summary>
+        /// метод заполнения списка случайными значениями
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void createRandomDataButton_Click(object sender, EventArgs e)
         {
             discountList.Clear();
@@ -128,7 +162,11 @@ namespace View
             removeDiscountButton.Enabled = searchDiscountButton.Enabled = saveToFileButton.Enabled = true;
         }
 
-        // метод сохранения значений в файл с использованием сериализации
+        /// <summary>
+        /// метод сохранения значений в файл с использованием сериализации
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void saveToFileButton_Click(object sender, EventArgs e)
         {
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
@@ -141,7 +179,11 @@ namespace View
             }
         }
 
-        // метод загрузки значений из файла с использованием десериализации
+        /// <summary>
+        /// метод загрузки значений из файла с использованием десериализации
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void loadFromFileButton_Click(object sender, EventArgs e)
         {
             if (openFileDialog.ShowDialog() == DialogResult.OK)

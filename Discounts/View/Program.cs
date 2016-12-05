@@ -9,7 +9,7 @@ namespace View
     static class Program
     {
         /// <summary>
-        /// Главная точка входа для приложения.
+        /// Главная точка входа в программу 
         /// </summary>
         [STAThread]
         static void Main()
