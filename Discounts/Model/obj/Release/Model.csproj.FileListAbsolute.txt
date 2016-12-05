@@ -1,0 +1,4 @@
+D:\Temp\Discounts\Model\bin\Release\Model.dll
+D:\Temp\Discounts\Model\bin\Release\Model.pdb
+D:\Temp\Discounts\Model\obj\Release\Model.dll
+D:\Temp\Discounts\Model\obj\Release\Model.pdb

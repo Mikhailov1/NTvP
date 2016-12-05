@@ -1,0 +1,17 @@
+D:\Temp\Discounts\View\bin\Release\View.exe.config
+D:\Temp\Discounts\View\bin\Release\View.exe.manifest
+D:\Temp\Discounts\View\bin\Release\View.application
+D:\Temp\Discounts\View\bin\Release\View.exe
+D:\Temp\Discounts\View\bin\Release\View.pdb
+D:\Temp\Discounts\View\bin\Release\Model.dll
+D:\Temp\Discounts\View\bin\Release\Model.pdb
+D:\Temp\Discounts\View\obj\Release\View.csprojResolveAssemblyReference.cache
+D:\Temp\Discounts\View\obj\Release\View.AddDiscountForm.resources
+D:\Temp\Discounts\View\obj\Release\View.DiscountsForm.resources
+D:\Temp\Discounts\View\obj\Release\View.Properties.Resources.resources
+D:\Temp\Discounts\View\obj\Release\View.csproj.GenerateResource.Cache
+D:\Temp\Discounts\View\obj\Release\View.exe.manifest
+D:\Temp\Discounts\View\obj\Release\View.application
+D:\Temp\Discounts\View\obj\Release\View.exe
+D:\Temp\Discounts\View\obj\Release\View.pdb
+D:\Temp\Discounts\View\obj\Release\View.SearchDiscountForm.resources

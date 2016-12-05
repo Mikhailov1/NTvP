@@ -1,0 +1,20 @@
+D:\Temp\Discounts\View\bin\Debug\View.exe.config
+D:\Temp\Discounts\View\obj\Debug\View.csprojResolveAssemblyReference.cache
+D:\Temp\Discounts\View\obj\Debug\View.AddDiscountForm.resources
+D:\Temp\Discounts\View\obj\Debug\View.DiscountsForm.resources
+D:\Temp\Discounts\View\obj\Debug\View.Properties.Resources.resources
+D:\Temp\Discounts\View\obj\Debug\View.csproj.GenerateResource.Cache
+D:\Temp\Discounts\View\bin\Debug\View.exe
+D:\Temp\Discounts\View\bin\Debug\View.pdb
+D:\Temp\Discounts\View\obj\Debug\View.exe
+D:\Temp\Discounts\View\obj\Debug\View.pdb
+D:\Temp\Discounts\View\bin\Debug\Model.dll
+D:\Temp\Discounts\View\bin\Debug\Model.pdb
+D:\Temp\Discounts\View\bin\Debug\View.exe.manifest
+D:\Temp\Discounts\View\bin\Debug\View.application
+D:\Temp\Discounts\View\obj\Debug\View.exe.manifest
+D:\Temp\Discounts\View\obj\Debug\View.application
+D:\Temp\Discounts\View\obj\Debug\View.SearchDiscountForm.resources
+C:\Users\Вячеслав\Desktop\4 курс\Калентьев\2л.р\Discounts\View\bin\Debug\View.exe.config
+C:\Users\Вячеслав\Desktop\4 курс\Калентьев\2л.р\Discounts\View\obj\Debug\View.exe
+C:\Users\Вячеслав\Desktop\4 курс\Калентьев\2л.р\Discounts\View\obj\Debug\View.pdb

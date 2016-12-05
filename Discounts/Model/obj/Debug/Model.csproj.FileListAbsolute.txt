@@ -1,0 +1,14 @@
+C:\Users\Вячеслав\Desktop\4 курс\Калентьев\лаб1.1\Discounts\Model\bin\Debug\Model.dll
+C:\Users\Вячеслав\Desktop\4 курс\Калентьев\лаб1.1\Discounts\Model\bin\Debug\Model.pdb
+C:\Users\Вячеслав\Desktop\4 курс\Калентьев\лаб1.1\Discounts\Model\obj\Debug\Model.dll
+C:\Users\Вячеслав\Desktop\4 курс\Калентьев\лаб1.1\Discounts\Model\obj\Debug\Model.pdb
+C:\Users\Вячеслав\Desktop\4 курс\Калентьев\New Folder\Discounts\Model\bin\Debug\Model.dll
+C:\Users\Вячеслав\Desktop\4 курс\Калентьев\New Folder\Discounts\Model\bin\Debug\Model.pdb
+C:\Users\Вячеслав\Desktop\4 курс\Калентьев\New Folder\Discounts\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\Вячеслав\Desktop\4 курс\Калентьев\New Folder\Discounts\Model\obj\Debug\Model.dll
+C:\Users\Вячеслав\Desktop\4 курс\Калентьев\New Folder\Discounts\Model\obj\Debug\Model.pdb
+D:\Temp\Discounts\Model\bin\Debug\Model.dll
+D:\Temp\Discounts\Model\bin\Debug\Model.pdb
+D:\Temp\Discounts\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\Temp\Discounts\Model\obj\Debug\Model.dll
+D:\Temp\Discounts\Model\obj\Debug\Model.pdb
